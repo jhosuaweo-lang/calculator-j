@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>joshua</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="calc-wrap" id="app">
+    <header>
+      <div class="brand">
+        <div class="logo">JW</div>
+        <div>
+          <div class="title">kalkulator animasi</div>
+          <div class="subtitle">html, css, js </div>
+        </div>
+      </div>
+      <div class="controls">
+      </div>
+    </header>
+
+    <div class="display">
+      <div class="expression" id="expression">0</div>
+      <div class="result" id="result">0</div>
+    </div>
+
+    <div class="pad" id="pad">
+      <div class="key fn" data-key="clear">C</div>
+      <div class="key fn" data-key="percent">%</div>
+      <div class="key fn" data-key="paren">( )</div>
+      <div class="key op" data-key="/">÷</div>
+
+      <div class="key" data-key="7">7</div>
+      <div class="key" data-key="8">8</div>
+      <div class="key" data-key="9">9</div>
+      <div class="key op" data-key="*">×</div>
+
+      <div class="key" data-key="4">4</div>
+      <div class="key" data-key="5">5</div>
+      <div class="key" data-key="6">6</div>
+      <div class="key op" data-key="-">−</div>
+
+      <div class="key" data-key="1">1</div>
+      <div class="key" data-key="2">2</div>
+      <div class="key" data-key="3">3</div>
+      <div class="key op" data-key="+">+</div>
+
+      <div class="key" data-key="0" style="grid-column:span 2;">0</div>
+      <div class="key" data-key=".">.</div>
+      <div class="key fn" data-key="del">⌫</div>
+      <div class="key equal" data-key="=">=</div>
+    </div>
+
+    <div class="tip">Gunakan keyboard: angka & + - * / Enter</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
